@@ -82,7 +82,7 @@ const Navbar: React.FC<NavbarProps> = ({ isVisible }) => {
           <div className="hidden md:flex items-center">
             <Link href="/contact" passHref>
               <p className=" inline-flex items-center px-4 py-2 border-transparent text-[22px] font-bold rounded-md text-black bg-transparent underline underline-offset-8 decoration-2 hover:no-underline">
-                Let's Talk
+                Let's Talk!
               </p>
             </Link>
           </div>
