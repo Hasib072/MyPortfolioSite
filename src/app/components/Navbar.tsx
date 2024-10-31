@@ -48,12 +48,12 @@ const Navbar: React.FC<NavbarProps> = ({ isVisible }) => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex md:space-x-8 items-center ml-[20rem]">
+          <div className="hidden md:flex md:space-x-8 items-center ml-[27rem]">
             <Link href="/work" passHref>
               <p
                 className={`${
                   isActive('/work') ? 'text-black' : 'text-gray-800 hover:text-black hover:underline hover:underline-offset-8 hover:decoration-2'
-                } ${inter.className} px-3 py-2 rounded-md text-[1.35rem] font-bold transition-colors duration-200`}
+                } ${inter.className} px-3 py-2 rounded-md text-[1.30rem] font-semibold transition-colors duration-200`}
               >
                 Work
               </p>
@@ -62,7 +62,7 @@ const Navbar: React.FC<NavbarProps> = ({ isVisible }) => {
               <p
                 className={`${
                   isActive('/about') ? 'text-black' : 'text-gray-800 hover:text-black hover:underline hover:underline-offset-8 hover:decoration-2'
-                } px-3 py-2 rounded-md text-[1.35rem] font-bold transition-colors duration-200`}
+                } px-3 py-2 rounded-md text-[1.30rem] font-semibold transition-colors duration-200`}
               >
                 About
               </p>
@@ -71,7 +71,7 @@ const Navbar: React.FC<NavbarProps> = ({ isVisible }) => {
               <p
                 className={`${
                   isActive('/blog') ? 'text-black' : 'text-gray-800 hover:text-black hover:underline hover:underline-offset-8 hover:decoration-2'
-                } px-3 py-2 rounded-md text-[1.35rem] font-bold transition-colors duration-200`}
+                } px-3 py-2 rounded-md text-[1.30rem] font-semibold transition-colors duration-200`}
               >
                 Blog
               </p>
